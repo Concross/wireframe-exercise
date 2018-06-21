@@ -78,6 +78,8 @@ main section article p {
   overflow: scroll;
   overflow-x: hidden;
   margin-bottom: 5px;
+  font-style: italic;
+  line-height: 1.25em;
 }
 
 main section article button {
@@ -86,6 +88,12 @@ main section article button {
   height: 30px;
   width: 130px;
   border: none;
+  border-radius: 2px;
+}
+
+main section article button:hover {
+  background-color: #868686;
+  transition: background-color 350ms ease-out;
 }
 
 footer {
