@@ -1,0 +1,32 @@
+header {
+  background-color: #444444;
+  padding: 10px 0;
+}
+
+nav {
+  height: 70px;
+  max-width: 960px;
+  margin: auto;
+}
+
+nav img {
+  display: block;
+  float: left;
+}
+
+nav ul {
+  float: left;
+}
+nav li {
+  display: inline-block;
+  margin-left: 30px;
+  width: 130px;
+  line-height: 70px;
+  white-space: nowrap;
+  height: 70px;
+}
+
+main {
+  max-width: 960px;
+  margin: auto;
+}
